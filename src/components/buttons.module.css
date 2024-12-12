@@ -1,0 +1,18 @@
+.buttons {
+  padding: 18px;
+  margin: 3px;
+  min-width: 100px;
+  height: auto;
+  background-color: #d6dbd2;
+  border-radius: 15px;
+}
+
+.buttons:hover,
+.buttons:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em;
+  transform: translateY(-0.15em);
+}
+
+.buttons:active {
+  box-shadow: inset 0 0 0 2em #d6dbd2c7;
+}

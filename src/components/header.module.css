@@ -1,0 +1,11 @@
+.headerImage {
+  height: auto;
+  width: 150px;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-height: 550px) {
+  .headerImage {
+    display: none;
+  }
+}

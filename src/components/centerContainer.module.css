@@ -1,0 +1,12 @@
+.centerContainer {
+  min-width: 400px;
+  max-height: 500px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid;
+  align-items: center;
+  padding: 15px;
+  margin: 0px;
+  background-color: #4ec5d7;
+  border-radius: 20px;
+}

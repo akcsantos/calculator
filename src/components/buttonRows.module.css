@@ -1,0 +1,18 @@
+.rows {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  height: auto;
+  margin: auto;
+  gap: 5px;
+}
+
+.rowContainer {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  height: 100%;
+}
+
+.coloredButton {
+  background-color: #ff893d;
+}
